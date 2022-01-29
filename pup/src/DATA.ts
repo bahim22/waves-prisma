@@ -1,20 +1,20 @@
 import { IDog } from './components/dog.interface';
 
 const DATA: IDog = {
-	name: 'Collins',
-	breed: 'Border Collie',
-	dob: '02/26/2012',
-	address: 'San Francisco',
-	humanFriend: 'Alexi Taylor',
+	name: 'Cora Athena',
+	breed: 'Pitbull Mix',
+	dob: '10/22/2021',
+	address: 'Pittsburgh',
+	humanFriend:[ 'Emily','Hima'],
 	image: 'https://i.imgur.com/pf4nUAN.jpg',
 	friends: [
 		{
-			name: 'Charzar',
+			name: 'Jackson',
 			breed: 'Border Collie',
 			dob: '07/07/2016',
-			address: 'Petaluma',
-			humanFriend: 'Nicolas Taylor',
-			image: 'https://i.imgur.com/ABA7xs4.jpg',
+			address: 'Northside',
+			humanFriend: 'Vick',
+			image: 'public/img/jax.png',
 		},
 		{
 			name: 'Lilly',

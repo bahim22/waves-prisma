@@ -2,9 +2,9 @@ export interface IDog {
 	name: string;
 	breed: string;
 	dob?: string;
-  address?: string;
-  image?: string;
-	humanFriend?: string;
+	address?: string;
+	image?: string;
+	humanFriend?: string[] | string,
 	friends?: IDog[];
 }
 

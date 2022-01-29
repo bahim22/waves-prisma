@@ -6,7 +6,7 @@ import Error from './Error/Error';
 import { Status } from './dog.interface';
 
 const Profile = () => {
-  // Our custom hook that "subscirbes" to the state changes in 
+  // Our custom hook that "subscribes" to the state changes in 
 	// the data provider component, DogDataProvider.
 	const { data, status, error } = useDogProviderState();
 
@@ -16,15 +16,14 @@ const Profile = () => {
 				Profile
 			</h1>
 			<div className="mt-10">
-        {/* If the API call returns an error we will show an error message */}
+        {/* If the API call returns an error show an error message */}
 				{error ? (
 					<Error errorMessage={error.message} />
           // Show a loading state when we are fetching the data
 				) : status === Status.loading ? (
 					<Loader isInherit={true} />
 				) : (
-					// Display the content with the data 
-          // provided via the custom hook, useDogProviderState.
+					// Display content w/ data via custom hook, useDogProviderState.
 					<ProfileCard data={data} />
 				)}
 			</div>

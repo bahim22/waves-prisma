@@ -2,7 +2,7 @@ import React from "react";
 import { render, cleanup } from "@testing-library/react";
 
 import "jsdom-global/register";
-import Banner from "./Banner";
+import Banner from "../pup-src/components/Banner/Banner";
 
 afterEach(cleanup);
 
