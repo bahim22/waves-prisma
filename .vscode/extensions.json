@@ -1,1 +1,14 @@
-{}
+{
+    "recommendations": [
+        "quicktype.quicktype",
+        "mongodb.mongodb-vscode",
+        "lightyen.tailwindcss-intellisense-twin",
+        "bradlc.vscode-tailwindcss",
+        "devzstudio.mern-snippets",
+        "roerohan.mongo-snippets-for-node-js",
+        "ms-vscode.vscode-typescript-next",
+        "walter-ribeiro.full-react-snippets",
+        "aaron-bond.better-comments",
+        "ms-azuretools.vscode-azureappservice"
+    ]
+}

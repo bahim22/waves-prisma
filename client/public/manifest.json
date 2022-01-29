@@ -1,0 +1,49 @@
+{
+    "name": "Dionysus Era Dev React SWA",
+    "lang": "en-us",
+    "short_name": "DED React SWA",
+    "description": "PWA, static web app, react, JAMstack portfolio and design website by Ibrahima Balde, Dionysus Era",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#2f3d58",
+    "background_color": "#2f3d58",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "logod2.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/logo180.png",
+            "sizes": "192x192 180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/logo192.png",
+            "sizes": "192x192 300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/logo512.png",
+            "sizes": "512x512 300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/logo320.png",
+            "sizes": "512x512 320x320",
+            "type": "image/png"
+        },
+        {
+            "src": "/logo678.png",
+            "sizes": "512x512 600x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/logoDed.png",
+            "sizes": "1000x600 600x600 800x800",
+            "type": "image/png"
+        }
+    ]
+}
