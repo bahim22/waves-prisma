@@ -1,5 +1,5 @@
 
-# components and styling
+# Notes for Fullstack App components and styling
 
 1. Twin Macro
 
