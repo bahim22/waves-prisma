@@ -1,0 +1,31 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "description": "backend for mern stack waves app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahim22/waves.git"
+  },
+  "keywords": [
+    "mern",
+    "stack",
+    "react",
+    "mongoDB"
+  ],
+  "author": "Hima Dionysus Balde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahim22/waves/issues"
+  },
+  "homepage": "https://github.com/bahim22/waves#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "prisma": "^3.8.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
