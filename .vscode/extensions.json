@@ -9,6 +9,7 @@
         "ms-vscode.vscode-typescript-next",
         "walter-ribeiro.full-react-snippets",
         "aaron-bond.better-comments",
-        "ms-azuretools.vscode-azureappservice"
+        "ms-azuretools.vscode-azureappservice",
+        "prisma.prisma"
     ]
 }
