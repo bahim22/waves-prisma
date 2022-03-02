@@ -1,0 +1,25 @@
+{
+  "name": "waves",
+  "version": "1.0.0",
+  "description": "Azure DevOps, Express, CosmosDB and React App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma-gen": "npx run prisma generate",
+    "prisma-db": "prisma db pull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahim22/waves.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahim22/waves/issues"
+  },
+  "homepage": "https://github.com/bahim22/waves#readme",
+  "devDependencies": {
+    "prisma": "^3.10.0"
+  }
+}
