@@ -1,7 +1,8 @@
 {
-  "name": "waves",
-  "version": "1.0.0",
-  "description": "Azure DevOps, Express, CosmosDB and React App.",
+  "name": "waves-master-prisma-dir",
+  "version": "2.1.0",
+  "description": "Prisma with MongoDb Full Stack App",
+  "author": "Hima Dionysus Balde",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/bahim22/waves.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Prisma, Azure DevOps, MongoDb, and Nextjs"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bahim22/waves/issues"
@@ -21,5 +23,8 @@
   "homepage": "https://github.com/bahim22/waves#readme",
   "devDependencies": {
     "prisma": "^3.10.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.10.0"
   }
 }
