@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/bahim22/waves#readme",
   "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.2",
+    "prettier": "^2.5.1",
+    "eslint-plugin-prettier":"4.0.0",
     "prisma": "^3.10.0"
   },
   "dependencies": {

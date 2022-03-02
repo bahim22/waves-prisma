@@ -1,5 +1,5 @@
 import { PrismaClient} from '@prisma/client'
-import { join } from '@prisma/client/runtime'
+//import { join } from '@prisma/client/runtime'
 
 const prisma = new PrismaClient()
 // Fetch zero or more Posts
