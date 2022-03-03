@@ -1,23 +1,12 @@
 
-# Notes
-
-```shell
-echo "# bahim22" >> README.md
-git init
-git add README.md
-git commit -m "init commit message"
-git branch -M master
-git remote add origin https://github.com/bahim22/REPO.git
-git push -u origin master
-```
-
-## Prisma Notes from master ts branch
+# Prisma Notes
 
 ```sh
 npm install @prisma/client
 ```
 
-init setup invokes prisma generate auto; changes afterwards needs prisma generate script called explicity for the  Prisma Client API.
+- init setup invokes prisma generate auto; changes afterwards needs prisma generate script called explicity for the  `Prisma Client` API.
+- `Prisma Client` is an auto-generated and type-safe query builder
 
 ___
 
@@ -79,7 +68,11 @@ main()
 
 Next steps:
 
-1. Set the DB_URL in the .env file to point to your existing DB.
-2. Set the provider of the datasource block in schema.prisma to match your DB: postgresql, mysql, sqlite, sqlserver or mongodb (Preview).
-3. Run prisma db pull to turn your DB schema into a Prisma schema.
-4. Run prisma generate to generate the Prisma Client. You can then start querying your DB.
+1. Use the .env file for DB_URL then set provider info in schema
+2. Run prisma db pull to turn your DB schema into a Prisma schema.
+3. Use MongoDB Compass or PostgreSQL to create data or use sample data so Prisma can introspect a schema based on sample data in DB
+4. Prisma will then inferr the schema, then you can init prisma
+5. Run prisma generate to generate the Prisma Client. You can then start querying your DB.
+6. use @relation attribute to join data to PrCl
+7. install prisma client, query db, run code, write data into db w more queries
+8. view data in npx `prisma studio`, add frontend
