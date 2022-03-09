@@ -1,5 +1,5 @@
 
-# Dionysus Era Waves (JavaScript -v)
+# Dionysus Era Waves (Ts -v)
 
 ## PostgreSQL, Next.js, Prisma, GraphQL App
 
