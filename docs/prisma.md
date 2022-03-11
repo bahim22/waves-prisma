@@ -1,16 +1,6 @@
 
 # Notes
 
-```shell
-echo "# bahim22" >> README.md
-git init
-git add README.md
-git commit -m "init commit message"
-git branch -M master
-git remote add origin https://github.com/bahim22/REPO.git
-git push -u origin master
-```
-
 ## Prisma Notes from master ts branch
 
 ```sh
@@ -83,3 +73,4 @@ Next steps:
 2. Set the provider of the datasource block in schema.prisma to match your DB: postgresql, mysql, sqlite, sqlserver or mongodb (Preview).
 3. Run prisma db pull to turn your DB schema into a Prisma schema.
 4. Run prisma generate to generate the Prisma Client. You can then start querying your DB.
+5. run node index.js to run query
