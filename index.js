@@ -1,4 +1,5 @@
-import { PrismaClient} from '@prisma/client'
+// import { PrismaClient} from '@prisma/client'
+const {PrismaClient} = require('@prisma/client')
 //import { join } from '@prisma/client/runtime'
 
 const prisma = new PrismaClient()
@@ -7,8 +8,26 @@ const prisma = new PrismaClient()
 
 async function main() {
     await prisma.$connect()
-    const allUsers = await prisma.user.findMany()
-    console.log(allUsers)
+    await prisma.user.create({
+        data: {
+            name: "chowder",
+            email: "chowder22@gmail.com",
+            posts: {
+                create: {
+                    title: "cora for president",
+                    body: "one flew over, but can one fly",
+                    slug: "initial test post",
+                }
+            }
+
+        }
+    })
+    const allUsers = await prisma.user.findMany({
+        include: {
+            posts: true,
+        }
+    })
+    console.dir(allUsers, {depth: null})
 }
 
 main()
@@ -16,5 +35,5 @@ main()
         throw e
     })
     .finally(async () => {
-        await prisma.$disconnect
+        prisma.$disconnect()
     })

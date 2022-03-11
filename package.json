@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prisma-gen": "npx run prisma generate",
+    "prisma-gen": "npx prisma generate",
     "prisma-db": "prisma db pull"
   },
   "repository": {
@@ -23,9 +23,9 @@
   "homepage": "https://github.com/bahim22/waves#readme",
   "devDependencies": {
     "eslint": "^8.10.0",
+    "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "^7.29.2",
     "prettier": "^2.5.1",
-    "eslint-plugin-prettier":"4.0.0",
     "prisma": "^3.10.0"
   },
   "dependencies": {

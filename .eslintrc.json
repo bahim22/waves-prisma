@@ -16,6 +16,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "ignorePatterns": ["node_modules","prisma"],
     "plugins": [
         "react"
     ],
